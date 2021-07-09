@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Site Ajudante!</title>
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="img.wrapper">
+                <img src="imagens/bg.jpg" alt="">
+            </div>
+            <div class="banner">
+
+</body> 
+<script>
+var nome = window.prompt('Qual é seu nome?')
+window.alert('Certo, agora vou pedir para você me enviar dois números para eu fazer os cálculos')
+var numero1 = Number.parseFloat(window.prompt('Digite um numero:'))
+var numero2 = Number.parseFloat(window.prompt('Digite outro numero:'))
+var vezes = numero1*numero2
+var mais = numero1 + numero2
+var menos = numero1 - numero2
+var divido = numero1/numero2
+
+
+document.write(`Olá, <strong>${nome}</strong>, Tudo bem? Sabia que seu nome tem ${nome.length} letras? <br/>`)
+document.write(`Seu nome em letra maiúscula fica <strong> ${nome.toUpperCase()}</strong> <br/>`)
+document.write(`Em minusculo ele fica <strong> ${nome.toLowerCase()}</strong> <br/>`)
+document.write(`<br/><br/><br/>O numero ${numero1} x ${numero2} é igual a ${vezes}<br/>`)
+document.write(`O numero ${numero1} + ${numero2} é igual a ${mais}<br/>`)
+document.write(`O numero ${numero1} - ${numero2} é igual a ${menos}<br/>`)
+document.write(`O numero ${numero1} ÷ ${numero2} é igual a ${divido}<br/>`)
+
+
+</script>
